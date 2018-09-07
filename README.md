@@ -13,3 +13,7 @@ https://hub.docker.com/_/mongo/
 ## Authors
 
 * Ammar K.
+
+## License
+
+[GNU General Public License version 2](https://github.com/akai-z/docker-alpine-mongodb/blob/master/LICENSE)
