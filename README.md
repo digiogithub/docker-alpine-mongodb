@@ -8,7 +8,7 @@ https://hub.docker.com/_/mongo/
 
 ## MongoDB Version
 
-`3.6.7`
+`3.4.10`
 
 ## Authors
 
