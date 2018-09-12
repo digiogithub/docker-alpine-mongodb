@@ -108,7 +108,7 @@ _mongod_hack_ensure_no_arg() {
     mongodHackedArgs+=( "$arg" )
   done
 }
-# _mongod_hack_ensure_no_arg '--some-unwanted-arg' "$@"
+# _mongod_hack_ensure_no_arg_val '--some-unwanted-arg' "$@"
 # set -- "${mongodHackedArgs[@]}"
 _mongod_hack_ensure_no_arg_val() {
   local ensureNoArg="$1"; shift
