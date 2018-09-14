@@ -9,6 +9,7 @@ https://hub.docker.com/_/mongo/
 ## Supported tags and respective `Dockerfile` links
 
 * [`3.4.10, 3.4` (*3.4/Dockerfile*)](https://github.com/akai-z/docker-alpine-mongodb/blob/master/3.4/Dockerfile)
+* [`3.6.7, 3.6` (*3.6/Dockerfile*)](https://github.com/akai-z/docker-alpine-mongodb/blob/master/3.6/Dockerfile)
 
 ## Authors
 
