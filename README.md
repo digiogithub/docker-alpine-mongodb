@@ -10,6 +10,7 @@ https://hub.docker.com/_/mongo/
 
 * [`3.4.10, 3.4` (*3.4/Dockerfile*)](https://github.com/akai-z/docker-alpine-mongodb/blob/master/3.4/Dockerfile)
 * [`3.6.7, 3.6` (*3.6/Dockerfile*)](https://github.com/akai-z/docker-alpine-mongodb/blob/master/3.6/Dockerfile)
+* [`4.0.1, 4.0` (*4.0/Dockerfile*)](https://github.com/akai-z/docker-alpine-mongodb/blob/master/4.0/Dockerfile)
 
 ## Authors
 
