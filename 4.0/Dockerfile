@@ -7,7 +7,8 @@ COPY docker-entrypoint.sh /usr/local/bin/
 RUN set -x \
     && addgroup -S mongodb \
     && adduser -Sg mongodb mongodb \
-    && echo "@testing http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories \
+    && echo "@testing http://dl-cdn.alpinelinux.org/alpine/edge/testing" \
+        >> /etc/apk/repositories \
     && apk add -u --no-cache apk-tools \
     && apk update \
     && apk add -u --no-cache \
