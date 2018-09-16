@@ -1,5 +1,5 @@
 **Note:**  
-This image is based on the official Debian/Ubuntu Linux MongoDB Docker image.  
+This image is based on the official Debian/Ubuntu Linux MongoDB Docker image.
 
 For more details, check the following link:  
 https://hub.docker.com/_/mongo/
