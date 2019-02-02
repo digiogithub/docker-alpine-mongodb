@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:3.9
 
 LABEL maintainer="Ammar K."
 
@@ -9,7 +9,6 @@ RUN set -x \
     && adduser -Sg mongodb mongodb \
     && echo "@testing http://dl-cdn.alpinelinux.org/alpine/edge/testing" \
         >> /etc/apk/repositories \
-    && apk add -u --no-cache apk-tools \
     && apk update \
     && apk add -u --no-cache \
         bash \
