@@ -7,14 +7,14 @@ COPY docker-entrypoint.sh /usr/local/bin/
 RUN set -x \
     && addgroup -S mongodb \
     && adduser -Sg mongodb mongodb \
-    && echo "@testing http://dl-cdn.alpinelinux.org/alpine/edge/testing" \
+    && echo "@edge http://dl-cdn.alpinelinux.org/alpine/edge/main" \
         >> /etc/apk/repositories \
     && apk update \
     && apk add -u --no-cache \
         bash \
         jq \
         mongodb \
-        numactl@testing \
+        numactl@edge \
         su-exec \
     && rm -rf /var/lib/mongodb \
     && mkdir -p /docker-entrypoint-initdb.d /data/db /data/configdb \
