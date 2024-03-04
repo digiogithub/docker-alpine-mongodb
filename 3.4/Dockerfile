@@ -4,13 +4,14 @@ LABEL maintainer="Ammar K."
 
 COPY docker-entrypoint.sh /usr/local/bin/
 
+
 RUN set -x \
     && addgroup -S mongodb \
     && adduser -Sg mongodb mongodb \
     && echo "@edge http://dl-cdn.alpinelinux.org/alpine/edge/main" \
         >> /etc/apk/repositories \
-    && apk update \
-    && apk add -u --no-cache \
+    && apk update --allow-untrusted \
+    && apk add -u --no-cache --allow-untrusted \
         bash \
         jq \
         mongodb \
